@@ -72,7 +72,7 @@ document.getElementsByTagName('button')[0].onclick = () => click(0)
 document.getElementsByTagName('button')[1].onclick = () => click(1)
 document.getElementsByTagName('button')[2].onclick = () => click(2)
 document.getElementsByTagName('button')[3].onclick = () => click(3)
-const instructions = fetch('/public/gnu.txt')
+const instructions = fetch('gnu.txt')
 .then(response => response.text())
 .then(data => {
     Callum = new Dialogue(data)
