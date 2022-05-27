@@ -1,4 +1,4 @@
-0 Hey, you're the new one here ennit? Wanna come to bargain booze and get a boost? [1,2,3,4]
+@https://cdn.discordapp.com/attachments/976956450972774420/979843344693862410/unknown.png@0 Hey, you're the new one here ennit? Wanna come to bargain booze and get a boost? [1,2,3,4]
 1 Sure! -> 8
 2 No *walks off* -> 5
 3 Stfu -> 5
