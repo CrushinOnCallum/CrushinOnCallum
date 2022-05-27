@@ -1,0 +1,39 @@
+0 Hey, you're the new one here ennit? Wanna come to bargain booze and get a boost? [1,2,3,4]
+1 Sure! -> 8
+2 No *walks off* -> 5
+3 Stfu -> 5
+4 *throws up* -> 6
+5 *You walk away* -> 7
+6 WTF! IT'S ALL OVER ME! -> 9
+7 *Callum catches up to you, now with a boost* -> 10
+8 *You buy a boost, he buys two. You both drink one* -> 10
+9 *Callum drags you to the Nurse, covered in your vomit* -> 11
+10 *You both walk into school and stand outside* -> 12
+11 *You enter the Nurse's office, while Callum cleans himself up with paper towels.* It's not coming off! [13,14,15]
+12 It's starting to rain... [16,17,18]
+13 *Laugh at him* -> 19
+14 *Stare at him* -> 20
+15 *Help him* -> 21
+16 *Leave him and walk to form alone* -> 22
+17 *Hold an umbrella over the two of you* -> 23
+18 *Cry* -> 24
+19 Don't laugh at me. -> 25
+20 Don't just stare at me! -> 25
+21 Hey, thanks -> 25
+22 *You walk to form and arrive, Callum sitting near you* -> 26
+23 *Callum blushes* You're sharing your umbrella? But your back is getting wet! [27,28,29]
+24 H-hey, what're you doing?! *He wipes your eyes, flustered. You both blush* -> 30
+25 Cmon, let's go to form. *You walk to form and he sits nowhere near you* -> 31
+26 *You go through form, noticing Callum glancing over at you from time to time. You turn to leave at the end, but you're stopped by your form tutor.* -> 37
+27 It's fine, you're more important to me. -> 32
+28 *Stare into his eyes* -> 32
+29 *Move the umbrella back over you* -> 33
+30 Cmon... let's go to form.... -> 34
+31 *You go through form and Callum seems to completely ignore you. You turn to leave, but your form tutor tells you something.* -> 36
+32 *Callum blushes very obviously, and he tries to hide it, making both of you blush even more.* -> 30
+33 Now I'm soaked... let's go to form. -> 22
+34 *You both go to form and Callum sits right next to you, despite his friends being in the other corner* -> 35
+35 *He looks at you and blushes over and over again during form, thinking you can't see him. You can. Turning to leave form at the end, Callum stops you." -> 38
+36
+37
+38
