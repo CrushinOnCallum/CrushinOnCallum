@@ -1,39 +1,49 @@
-@https://cdn.discordapp.com/attachments/951216896689184858/951565292717359184/IMG_7025.jpg@$https://cdn.discordapp.com/attachments/951216988808679476/951218871338143744/IMG_20220210_082641_235.jpg$0 Hey, you're the new one here ennit? Wanna come to bargain booze and get a boost? [1,2,3,4]
-1 Sure! -> 8
-2 No *walks off* -> 5
-3 Stfu -> 5
-4 *throws up* -> 6
-5 *You walk away* -> 7
-6 WTF! IT'S ALL OVER ME! -> 9
-7 *Callum catches up to you, now with a boost* -> 10
-8 *You buy a boost, he buys two. You both drink one* -> 10
-9 *Callum drags you to the Nurse, covered in your vomit* -> 11
-10 *You both walk into school and stand outside* -> 12
-11 *You enter the Nurse's office, while Callum cleans himself up with paper towels.* It's not coming off! [13,14,15]
-12 It's starting to rain... [16,17,18]
-13 *Laugh at him* -> 19
-14 *Stare at him* -> 20
-15 *Help him* -> 21
-16 *Leave him and walk to form alone* -> 22
-17 *Hold an umbrella over the two of you* -> 23
-18 *Cry* -> 24
-19 Don't laugh at me. -> 25
-20 Don't just stare at me! -> 25
-21 Hey, thanks -> 25
-22 *You walk to form and arrive, Callum sitting near you* -> 26
-23 *Callum blushes* You're sharing your umbrella? But your back is getting wet! [27,28,29]
-24 H-hey, what're you doing?! *He wipes your eyes, flustered. You both blush* -> 30
-25 Cmon, let's go to form. *You walk to form and he sits nowhere near you* -> 31
-26 *You go through form, noticing Callum glancing over at you from time to time. You turn to leave at the end, but you're stopped by your form tutor.* -> 37
-27 It's fine, you're more important to me. -> 32
-28 *Stare into his eyes* -> 32
-29 *Move the umbrella back over you* -> 33
-30 Cmon... let's go to form.... -> 34
-31 *You go through form and Callum seems to completely ignore you. You turn to leave, but your form tutor tells you something.* -> 36
-32 *Callum blushes very obviously, and he tries to hide it, making both of you blush even more.* -> 30
-33 Now I'm soaked... let's go to form. -> 22
-34 *You both go to form and Callum sits right next to you, despite his friends being in the other corner* -> 35
-35 *He looks at you and blushes over and over again during form, thinking you can't see him. You can. Turning to leave form at the end, Callum stops you." -> 38
-36
-37
-38
+"Hey, you're the new one here ennit? Wanna come to bargain booze and buy a drink?" [1,2,3,4]
+"Sure!" -> 8
+"No." You walk off -> 5
+"Stfu" -> 5
+Throw up -> 6
+You walk away -> 7
+"WTF! IT'S ALL OVER ME!" -> 9
+Callum catches up to you, now with a drink -> 10
+You buy a drink, he buys two. You both drink one -> 10
+Callum drags you to the Nurse, covered in your vomit -> 11
+You both walk into school and stand outside -> 12
+You enter the Nurse's office, while Callum cleans himself up with paper towels. He says "It's not coming off!" [13,14,15]
+"It's starting to rain..." [16,17,18]
+Laugh at him -> 19
+Stare at him -> 20
+Help him -> 21
+Leave him and walk to form alone -> 22
+Hold an umbrella over the two of you -> 23
+Cry -> 24
+"Don't laugh at me." -> 25
+"Don't just stare at me!" -> 25
+"Hey, thanks" -> 25
+You walk to form and arrive, Callum sitting near you -> 26
+Callum blushes, saying "You're sharing your umbrella? But your back is getting wet!" [27,28,29]
+"H-hey, what're you doing?!" He wipes your eyes, flustered. You both blush -> 30
+"Cmon, let's go to form." You walk to form and he sits nowhere near you -> 31
+You go through form, noticing Callum glancing over at you from time to time. You turn to leave at the end, but you're stopped by your form tutor. -> 37
+"It's fine, you're more important to me." -> 32
+Stare into his eyes -> 32
+Move the umbrella back over you -> 33
+"Cmon... let's go to form..." -> 34
+You go through form and Callum seems to completely ignore you. You turn to leave, but your form tutor tells you something. -> 36
+Callum blushes very obviously, and he tries to hide it, making both of you blush even more. -> 30
+"Now I'm soaked... let's go to form." -> 22
+You both go to form and Callum sits right next to you, despite his friends being in the other corner. -> 35
+He looks at you and blushes over and over again during form, thinking you can't see him. You can. Turning to leave form at the end, Callum stops you. -> 38
+"Hey, I want you to stay with Callum for your first week. He'll show you around until you're used to it all." -> 41
+"Hey, I want you to stay with someone this week. Just to get you accustomed to the school and all that." [39,43]
+"Hey... do you wanna stick with me... for a bit? You know, to get you used to the school, that's all." [42,46,47]
+"I'm friends with Callum... I think." -> 40
+"Great. I'll pair the two of you up." -> 45
+Callum strolls over to you, clearly annoyed that you're stuck together. -> 49
+"I'd love to!" -> 52
+"I have 0 friends here." -> 44
+"I really doubt that. Just go with Callum then, neither does he." -> 45
+You and Callum walk over to each other, you lock eyes and quickly look away. -> 52
+"Of course." Winking at him -> 53
+"No." -> 50
+"Okay then" -> 51
