@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family: brad;
+    src: url('/BRADHITC.TTF');
+}
+@font-face {
+    font-family: love;
+    src: url('/LOVE.TTF');
+}
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    background-position: center;
+    background-size:cover;
+}
+img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+.dialogue {
+    opacity: 70%;
+}
+.themDialogue {
+    margin-top: 50vh;
+
+    width: 86%;
+    height: 80px;
+    border: 4px solid rgb(255, 255, 255);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    background-color: rgb(70, 70, 70);
+    color: #fff;
+
+    font-size: 30px;
+    font-family: brad;
+    font-weight: bold;
+}
+.youDialogue {
+    display: grid;
+    
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
+    width: 90%;
+    height: 39%;
+    margin: auto;
+    font-family: love;
+    text-align: center;
+}
+.youDialogue button {
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    background-color: rgb(70, 70, 70);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    height: 90%;
+    width: 90%;
+    padding-top: 10px;
+
+    
+    transform: translate(5%, 5%);
+}
+.youDialogue button:hover {
+    background-color: rgb(7, 7, 7);
+}
