@@ -47,3 +47,8 @@ You and Callum walk over to each other, you lock eyes and quickly look away. -> 
 "Of course." Winking at him -> 53
 "No." -> 50
 "Okay then" -> 51
+callum hates you -> 54
+callum doesnt mind you -> 54
+callum wants to be your friend -> 54
+callum might like you -> 54
+callum likes you ;) -> 54
