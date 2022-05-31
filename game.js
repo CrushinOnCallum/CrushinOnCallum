@@ -72,11 +72,19 @@ document.getElementsByTagName('button')[0].onclick = () => click(0)
 document.getElementsByTagName('button')[1].onclick = () => click(1)
 document.getElementsByTagName('button')[2].onclick = () => click(2)
 document.getElementsByTagName('button')[3].onclick = () => click(3)
-const instructions = fetch('gnu.txt')
-.then(response => response.text())
-.then(data => {
-    Callum = new Dialogue(data)
-})
+document.getElementById('scene').hidden = true
+
+document.getElementById('startButton').onclick = startGame
+function startGame() {
+    const instructions = fetch('gnu.txt')
+    .then(response => response.text())
+    .then(data => {
+        Callum = new Dialogue(data)
+    })
+    document.getElementById('scene').hidden = false
+    document.getElementById('startMenu').hidden = true
+}
+
 
 function click(num) {
     Callum.converse(buttons[num])
