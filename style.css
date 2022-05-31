@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: brad;
     src: url('/BRADHITC.TTF');
@@ -10,8 +9,11 @@
 * {
     box-sizing: border-box;
     overflow: hidden;
+    padding: 0;
+    border: 0;
 }
-body {
+/* DATING STUFF */
+.datingScene {
     background-position: center;
     background-size:cover;
 }
@@ -66,7 +68,6 @@ img {
     background-color: rgb(70, 70, 70);
     color: #ffffff;
     font-weight: bold;
-    font-family: monospace;
     font-size: larger;
     height: 90%;
     width: 90%;
@@ -78,3 +79,41 @@ img {
 .youDialogue button:hover {
     background-color: rgb(7, 7, 7);
 }
+/* DATING STUFF */
+/* START MENU   */
+#startButton {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: inherit;
+    transform: translate(-50%, -50%);
+}
+.heart {
+    display:inline-block;
+    width: 70%; 
+    aspect-ratio: 1;
+    border-image: radial-gradient(red 69%,#fff 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0,50% 91%, 141% 0);
+    font-size: 1.4rem;
+    transition: 0.4s;
+    
+}
+.play-text {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    transition: 0.4;
+    font-size: inherit;
+    font-family: monospace;
+}
+.heart:hover {
+    width: 100%;
+    font-size: 2rem;
+}
+
+/* START MENU   */
