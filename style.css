@@ -107,13 +107,15 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    transition: 0.4;
-    font-size: inherit;
+    transition: 0.4s;
+    font-size: 2rem;
     font-family: monospace;
 }
 .heart:hover {
     width: 100%;
-    font-size: 2rem;
+}
+.heart:hover ~ .play-text {
+    font-size: 2.5rem;
 }
 
 /* START MENU   */
