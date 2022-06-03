@@ -10,7 +10,7 @@ class Dialogue {
     }
     parse(text) {
         var lines = text.match(/^.*((\r\n|\n|\r)|$)/gm);
-        
+        console.log(lines)
         for (let line in lines){
             let dialogue_line =  lines[line];
             let dialogue = {};
@@ -27,6 +27,7 @@ class Dialogue {
                 let top = dialogue_line.indexOf('$')
                 dialogue.face = dialogue_line.substr(0, top)
                 dialogue_line = dialogue_line.substr(top+1)
+                console.log(dialogue.face)
             }
             if (dialogue_line.indexOf('->') !== -1) {
                 let split = dialogue_line.split('->')
@@ -41,14 +42,15 @@ class Dialogue {
             dialogue.text = dialogue_line.trim()
             this.dialogues.push(dialogue)
         }
+        console.log(this.dialogues)
     }
     converse(num) {
         let dialogue = this.dialogues[num]
         // The thing they said
-        console.log(num + ": " + dialogue.text)   
+        console.log(num + ": " + dialogue.face)   
         document.getElementById('them').textContent = dialogue.text
         if (dialogue.background !== currentBackground && dialogue.background !== undefined) updateBackground(dialogue.background)
-        if (dialogue.face !== currentFace && dialogue.background !== undefined) updateFace(dialogue.face)
+        if (dialogue.face !== currentFace && dialogue.face !== undefined) updateFace(dialogue.face)
 
         if (dialogue.responses != undefined) {
             for (let response in dialogue.responses) {
@@ -85,7 +87,6 @@ function startGame() {
     document.getElementById('startMenu').hidden = true
 }
 
-
 function click(num) {
     Callum.converse(buttons[num])
 }
@@ -98,10 +99,14 @@ function buttonsDisplayed(amount) {
     }
 }
 function updateBackground(background) {
+    console.log("update")
     currentBackground = "url(" + background + ")"
-    document.getElementById('body').style.backgroundImage = "url(" + background + ")"
+    document.getElementById('scene').style.backgroundImage = "url(" + background + ")"
 }
 function updateFace(face) {
+
     currentFace = face
     document.getElementById('reaction').src = face
+    console.log("update:  ", document.getElementById('reaction').src)
+
 }
