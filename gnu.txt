@@ -1,54 +1,55 @@
-"Hey, you're the new one here ennit? Wanna come to bargain booze and buy a drink?" [1,2,3,4]
+$img\3.png$ "Hey, you're the new one here ennit? Wanna come to bargain booze and buy a drink?" [1,2,3,4]
 "Sure!" -> 8
 "No." You walk off -> 5
 "Stfu" -> 5
 Throw up -> 6
 You walk away -> 7
-"WTF! IT'S ALL OVER ME!" -> 9
-Callum catches up to you, now with a drink -> 10
+$img\4.png$ "WTF! IT'S ALL OVER ME!" -> 9
+$img\2.png$ Callum catches up to you, now with a drink -> 10
 You buy a drink, he buys two. You both drink one -> 10
-Callum drags you to the Nurse, covered in your vomit -> 11
+$img\1.png$ Callum drags you to the Nurse, covered in your vomit -> 11
 You both walk into school and stand outside -> 12
-You enter the Nurse's office, while Callum cleans himself up with paper towels. He says "It's not coming off!" [13,14,15]
-"It's starting to rain..." [16,17,18]
+$img\1.png$ You enter the Nurse's office, while Callum cleans himself up with paper towels. He says "It's not coming off!" [13,14,15]
+$img\3.png$ "It's starting to rain..." [16,17,18]
 Laugh at him -> 19
 Stare at him -> 20
 Help him -> 21
 Leave him and walk to form alone -> 22
 Hold an umbrella over the two of you -> 23
 Cry -> 24
-"Don't laugh at me." -> 25
-"Don't just stare at me!" -> 25
-"Hey, thanks" -> 25
+$img\1.png$ "Don't laugh at me." -> 25
+$img\3.png$ "Don't just stare at me!" -> 25
+$img\5.png$ "Hey, thanks" -> 25
 You walk to form and arrive, Callum sitting near you -> 26
-Callum blushes, saying "You're sharing your umbrella? But your back is getting wet!" [27,28,29]
-"H-hey, what're you doing?!" He wipes your eyes, flustered. You both blush -> 30
-"Cmon, let's go to form." You walk to form and he sits nowhere near you -> 31
+$img\5.png$ Callum blushes, saying "You're sharing your umbrella? But your back is getting wet!" [27,28,29]
+$img\5.png$ "H-hey, what're you doing?!" He wipes your eyes, flustered. You both blush -> 30
+$img\3.png$ "Cmon, let's go to form." -> 55
 You go through form, noticing Callum glancing over at you from time to time. You turn to leave at the end, but you're stopped by your form tutor. -> 37
 "It's fine, you're more important to me." -> 32
 Stare into his eyes -> 32
 Move the umbrella back over you -> 33
-"Cmon... let's go to form..." -> 34
+$img\3.png$ "Cmon... let's go to form..." -> 34
 You go through form and Callum seems to completely ignore you. You turn to leave, but your form tutor tells you something. -> 36
-Callum blushes very obviously, and he tries to hide it, making both of you blush even more. -> 30
-"Now I'm soaked... let's go to form." -> 22
+$img\5.png$ Callum blushes very obviously, and he tries to hide it, making both of you blush even more. -> 30
+$img\1.png$ "Now I'm soaked... let's go to form." -> 22
 You both go to form and Callum sits right next to you, despite his friends being in the other corner. -> 35
 He looks at you and blushes over and over again during form, thinking you can't see him. You can. Turning to leave form at the end, Callum stops you. -> 38
 "Hey, I want you to stay with Callum for your first week. He'll show you around until you're used to it all." -> 41
 "Hey, I want you to stay with someone this week. Just to get you accustomed to the school and all that." [39,43]
-"Hey... do you wanna stick with me... for a bit? You know, to get you used to the school, that's all." [42,46,47]
+$img\2.png$ "Hey... do you wanna stick with me... for a bit? You know, to get you used to the school, that's all." [42,46,47]
 "I'm friends with Callum... I think." -> 40
 "Great. I'll pair the two of you up." -> 45
-Callum strolls over to you, clearly annoyed that you're stuck together. -> 49
+$img\1.png$ Callum strolls over to you, clearly annoyed that you're stuck together. -> 49
 "I'd love to!" -> 52
 "I have 0 friends here." -> 44
 "I really doubt that. Just go with Callum then, neither does he." -> 45
-You and Callum walk over to each other, you lock eyes and quickly look away. -> 52
+$img\5.png$ You and Callum walk over to each other, you lock eyes and he quickly looks away. -> 52
 "Of course." Winking at him -> 53
 "No." -> 50
 "Okay then" -> 51
-callum hates you -> 54
-callum doesnt mind you -> 54
-callum wants to be your friend -> 54
-callum might like you -> 54
-callum likes you ;) -> 54
+$img\1.png$ callum hates you -> 54
+$img\3.png$ callum doesnt mind you -> 54
+$img\2.png$ callum wants to be your friend -> 54
+$img\2.png$ callum might like you -> 54
+$img\5.png$ callum likes you ;) -> 54
+you win
