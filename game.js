@@ -70,10 +70,10 @@ class Dialogue {
 }
 
 var Callum;
-document.getElementsByTagName('button')[0].onclick = () => click(0)
-document.getElementsByTagName('button')[1].onclick = () => click(1)
-document.getElementsByTagName('button')[2].onclick = () => click(2)
-document.getElementsByTagName('button')[3].onclick = () => click(3)
+document.getElementById('0').onclick = () => click(0)
+document.getElementById('1').onclick = () => click(1)
+document.getElementById('2').onclick = () => click(2)
+document.getElementById('3').onclick = () => click(3)
 document.getElementById('scene').hidden = true
 
 document.getElementById('startButton').onclick = startGame
